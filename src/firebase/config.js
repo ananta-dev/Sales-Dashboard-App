@@ -2,9 +2,6 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-console.log('Firebase API KEY:');
-console.log(process.env.REACT_APP_API_KEY);
-
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_API_KEY,
     authDomain: process.env.REACT_APP_AUTH_DOMAIN,
@@ -14,27 +11,11 @@ const firebaseConfig = {
     appId: process.env.REACT_APP_APP_ID,
 };
 
-console.log('Right before initializing firebase');
-
 // init firebase
 firebase.initializeApp(firebaseConfig);
 
-console.log('Right after initializing firebase');
-
 // init service
 const projectFirestore = firebase.firestore();
-
-console.log('Right before calling firebase auth');
-
-let projectAuth;
-try {
-    projectAuth = firebase.auth();
-} catch (err) {
-    console.log('error while calling firebase.auth()');
-    console.log({ err });
-}
-
-console.log('Right after calling firebase auth');
-console.log({ projectAuth });
+const projectAuth = firebase.auth();
 
 export { projectFirestore, projectAuth };
