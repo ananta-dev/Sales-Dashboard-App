@@ -1,0 +1,17 @@
+* {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}

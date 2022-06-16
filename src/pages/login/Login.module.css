@@ -1,0 +1,35 @@
+.login-container {
+    flex: 4;
+}
+
+.login-form {
+    max-width: 36rem;
+    margin: 6rem auto;
+    padding: 2rem;
+}
+
+.login-form h2 {
+    font-size: 3.2rem;
+}
+
+.login-form label {
+    display: block;
+    margin: 3rem auto;
+}
+.login-form span {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+}
+.login-form input {
+    padding: 0.8rem 0.6rem;
+    font-size: 1.6rem;
+    color: #777;
+    width: 100%;
+}
+
+.login-form .error-message {
+    font-size: 1.6rem;
+    color: red;
+    margin-top: 1rem;
+}

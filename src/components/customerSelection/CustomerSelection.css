@@ -1,0 +1,27 @@
+.cardContainer {
+    flex: 1;
+    margin: 0px 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 1.5rem -1rem rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 1.5rem -1rem rgba(0, 0, 0, 0.75);
+}
+
+.customerSelectionTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cardContainer li {
+    list-style: none;
+}
+
+.selectBox {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.selectionSummary {
+    text-align: left;
+}

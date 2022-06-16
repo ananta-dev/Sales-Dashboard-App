@@ -1,0 +1,10 @@
+.contractList {
+    flex: 4;
+    height: 500px;
+}
+
+.gridHeader,
+.gridCell {
+    font-size: 1.6rem;
+    height: 100px;
+}
